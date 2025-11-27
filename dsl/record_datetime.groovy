@@ -27,7 +27,7 @@ spec:
       valueFrom:
         secretKeyRef:
           name: postgres-postgresql
-          key: postgresql-password
+          key: postgres-password
   restartPolicy: Never
 '''
         }
